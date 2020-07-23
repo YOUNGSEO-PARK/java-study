@@ -18,7 +18,6 @@ public class Prob04 {
 		}
 		return arr2;
 	}
-
 	public static void printCharArray(char[] array){
 		System.out.println(array);
 	}
