@@ -15,6 +15,7 @@ public class Prob02 {
         	intArray[i] = sc.nextInt();
         	sum+=intArray[i];
         }
+        
         System.out.println("평균은 "+sum/intArray.length+" 입니다.");
 	}
 }

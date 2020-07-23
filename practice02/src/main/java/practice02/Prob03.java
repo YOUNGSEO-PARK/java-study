@@ -16,7 +16,6 @@ public class Prob03 {
 			if(c[i] == ' ')
 				c[i]=',';
 	}
-	
 	public static void printCharArray( char[] c ) {
 		for(int i=0;i<c.length;i++)
 			System.out.print(c[i]);

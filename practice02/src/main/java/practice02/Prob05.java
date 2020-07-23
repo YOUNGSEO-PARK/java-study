@@ -19,6 +19,7 @@ public class Prob05 {
 		System.out.println(start+"-"+end);
 		System.out.print(cnt+">>");
 		n=sc.nextInt();
+		
 			if(n > k) {
 				System.out.println("더 낮게");
 				end=n;

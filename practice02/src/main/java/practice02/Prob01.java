@@ -8,7 +8,6 @@ public class Prob01 {
 		int money;
 		
 		Scanner sc = new Scanner(System.in);
-		
 		money = sc.nextInt();
 		System.out.println("금액: ");
 	}
