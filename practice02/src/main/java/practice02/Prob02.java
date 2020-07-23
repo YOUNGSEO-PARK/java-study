@@ -8,7 +8,9 @@ public class Prob02 {
 		Scanner sc = new Scanner( System.in );
         int intArray[] = new int[5];
         double sum = 0;
+        
         System.out.println("5개의 숫자를 입력하세요.");
+        
         for(int i=0;i<intArray.length;i++) {
         	intArray[i] = sc.nextInt();
         	sum+=intArray[i];

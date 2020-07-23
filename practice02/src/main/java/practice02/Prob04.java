@@ -14,7 +14,7 @@ public class Prob04 {
 		char[] arr2 = str.toCharArray();
 		
 		for(int i=0;i<arr1.length;i++) {
-			arr2[i]=arr1[arr1.length-1-i];
+			arr2[i]=arr1[arr1.length-1-i]; // 배열 길이 주의
 		}
 		return arr2;
 	}

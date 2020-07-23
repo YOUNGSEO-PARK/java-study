@@ -9,6 +9,7 @@ public class Prob01 {
 		
 		Scanner sc = new Scanner(System.in);
 		money = sc.nextInt();
+		
 		System.out.println("금액: ");
 
 	}

@@ -1,10 +1,9 @@
 package practice02;
+
 import java.util.Random;
 import java.util.Scanner;
+
 public class Prob05 {
-	public static void game() {
-		
-	}
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -15,6 +14,7 @@ public class Prob05 {
 		int k = r.nextInt(100) + 1;
 		
 		System.out.println("수를 결정하였습니다. 맞추어보세요.");
+		
 		while(true) {
 		System.out.println(start+"-"+end);
 		System.out.print(cnt+">>");
