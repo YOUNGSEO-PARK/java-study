@@ -4,6 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Prob05 {
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -11,7 +12,7 @@ public class Prob05 {
 		while(true) {
 		int start = 1, end = 100, cnt = 1, n;
 		Random r = new Random();
-		int k = r.nextInt(100) + 1;
+		int k = r.nextInt(end) + start;
 		
 		System.out.println("수를 결정하였습니다. 맞추어보세요.");
 		
@@ -41,4 +42,5 @@ public class Prob05 {
 			}
 		}
 	}
+	
 }
