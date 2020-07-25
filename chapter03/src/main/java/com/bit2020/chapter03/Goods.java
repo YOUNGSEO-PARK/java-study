@@ -8,56 +8,65 @@ public class Goods {
 	
 	public static int countofGoods = 0;
 	
+	//생성자
+	public Goods() {
+		countofGoods++; 
+	}
+	
 	//의도 : Goods 객체는 이름을 가져야 한다.
 //	public Goods(String name) {
 //		this.name = name;
 //	}
 	
-	//생성자
-	public Goods() {
-		countofGoods += 10; 
-	}
 	//2개 변수 초기화를 해주는 생성자
-	public Goods(String name, int price) { 
-		//기본 생성자 부르기
-		this();
-		this.name = name;
-		this.price = price;
-	}
-	//4개 변수 초기화를 해주는 생성자
-	public Goods(String name, int price, int countStock, int countSold) { 
-		//2개 변수 초기화 생성자 부르기
-		this(name, price);
-		this.countStock = countStock;
-		this.countSold = countSold;
-	}
+//	public Goods(String name, int price) { 
+//		//기본 생성자 부르기
+//		this();
+//		this.name = name;
+//		this.price = price;
+//	}
 	
-	public String getName() {
-		return name;
-	}
+	//4개 변수 초기화를 해주는 생성자
+//	public Goods(String name, int price, int countStock, int countSold) { 
+//		//2개 변수 초기화 생성자 부르기
+//		this(name, price);
+//		this.countStock = countStock;
+//		this.countSold = countSold;
+//	}
+	
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getPrice() {
-		return price;
+
+	public String getName() {
+		return name;
 	}
+	
 	public void setPrice(int price) {
 		if(price < 0) {
 			price = 0;
 		}
 		this.price = price;
 	}
-	public int getCountStock() {
-		return countStock;
+	
+	public int getPrice() {
+		return price;
 	}
+	
 	public void setCountStock(int countStock) {
 		this.countStock = countStock;
 	}
-	public int getCountSold() {
-		return countSold;
+	
+	public int getCountStock() {
+		return countStock;
 	}
+	
 	public void setCountSold(int countSold) {
 		this.countSold = countSold;
+	}
+	
+	public int getCountSold() {
+		return countSold;
 	}
 	
 	public void showInfo() {
