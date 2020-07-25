@@ -12,10 +12,15 @@ public abstract class Shape implements Drawable { // Shape에서  Drawable 구�
 	public void setLineColor(String lineColor) {
 		this.lineColor = lineColor;
 	}
-
+	
+	public String getFillColor() {
+		return fillColor;
+	}
+	
 	public void setFillColor(String fillColor) {
 		this.fillColor = fillColor;
 	}
+	
 	
 	public abstract int calcPerimeter(); // 추상메소드
 }

@@ -6,9 +6,6 @@ public class Rect extends Shape{
 	private int y1;
 	private int y2;
 	
-	private String lineColor;
-	private String fillColor;
-	
 	public void draw() {
 		System.out.println("사각형을 그렸습니다.");
 	}

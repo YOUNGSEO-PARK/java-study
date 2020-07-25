@@ -1,8 +1,6 @@
 package com.bit2020.paint.shape;
 
 public class Circle extends Shape {
-	private int x1;
-	private int y1;
 	private int radius;
 	
 	@Override

@@ -9,7 +9,7 @@ public class Student extends Person {
 	}
 	
 	public void test() {
-		// 자식에서는 부모의 private 필드나 메소드 접근 불가
+		// 오류: 자식에서는 부모의 private 필드나 메소드 접근 불가
 		// name = "둘리";
 		
 		// 자식에서는 부모의 protected 필드나 메소드 접근 가능

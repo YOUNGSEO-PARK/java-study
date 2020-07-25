@@ -6,7 +6,7 @@ public class ColorPoint extends Point {
 		
 	}
 	public ColorPoint (int x, int y, String color) {
-//1.	setX(x);
+//1.		setX(x);
 //2.		setY(y);
 //1. 2. 보다 더 세련된 방식
 		super(x,y);
@@ -21,9 +21,6 @@ public class ColorPoint extends Point {
 	}
 	@Override
 	public void show() {
-		System.out.println("점[x=" + getX() + 
-				", y=" + getY() + 
-				", color="+color+
-				"]을 그렸습니다.");
+		System.out.println("점[x=" + getX() + ", y=" + getY() + ", color=" + color + "]을 그렸습니다.");
 	}
 }
